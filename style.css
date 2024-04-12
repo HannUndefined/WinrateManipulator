@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url("image/potrait.jpg");
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+select {
+  font-family: "Poppins", Sans-Serif;
+}
+
+.container, .accordion {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  /* border: 1px solid #ccc; */
+  border-radius: 5px;
+  background-color: rgba(238,238,238, 0.5);
+}
+
+h2 {
+  text-align: center;
+  color: #333333;
+  box-shadow: 10px 5px;
+  border: 1px solid black;
+}
+
+.center {
+  text-align: center;
+}
+
+label, input, button, select {
+  display: block;
+  margin-bottom: 10px;
+  border: .8px solid black;
+}
+
+input, select {
+  width: 100%;
+  padding: 5px;
+  background-color: transparent;
+  font-weight: bold;
+}
+
+button {
+  padding: 5px 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+pre {
+  background-color: white;
+  padding: 5px;
+  border: .8px solid black;
+  border-radius: 3px;
+  font-family: Monospace;
+}
+
+label {
+  display: inline-block;
+  background-color: #e3e3e3;
+  padding: 0px 10px;
+}
+
+.input {
+  position: relative;
+}
+
+.input input, .input select {
+  margin-top: 35px;
+}
+
+.input label {
+  position: absolute;
+  bottom: 16px;
+}
+
+.alert {
+  background-color: #f44336;
+  color: white;
+  font-size: 13px;
+  font-weight: bold;
+  padding: 1px 10px;
+}
+
+.sukses {
+  background-color: lime;
+  color: black;
+  font-size: 13px;
+  font-weight: bold;
+  padding: 1px 10px;
+}
+
+/* Accordion CSS */
+.accordion {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.accordion-item {
+  border-bottom: 1px solid #ddd;
+}
+
+.accordion-button {
+  background-color: #e3e3e3;
+  border: none;
+  outline: none;
+  padding: 10px 15px;
+  width: 100%;
+  text-align: left;
+  cursor: pointer;
+  color: black;
+  font-family: "Poppins", Sans-Serif;
+}
+
+.accordion-button:hover {
+  background-color: #e9e9e9;
+  color: black;
+}
+
+.accordion-content {
+  display: none;
+  padding: 10px 15px;
+  background-color: white;
+}
+
+.accordion-content p {
+  margin: 0;
+}
+
+.accordion-item.active .accordion-content {
+  display: block;
+}
+/* End Accordion CSS */
+
+input:focus + label,
+input:not(:placeholder-shown) + label {
+  top: -15px;
+  left: 10px;
+  font-size: 12px;
+  color: black;
+  background-color: #fff;
+  padding: 0 5px;
+  transition: all 0.3s ease-in-out;
+}
+
+.social-media-icon {
+  padding: 2px 3px 1px 3px;
+  background: #222;
+  color: #fff;
+  margin: 5px;
+  border-radius: 4px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+a.social-media-icon:hover {
+  background: #fff;
+  color: #222;
+}
+.facebook {
+  background: #3c5a98;
+}
+.youtube {
+  background: red;
+}
+.tiktok {
+  background: black;
+}
+.instagram {
+  background: #cd486b;
+}
+
+.d-inline-block {
+  display: inline-block;
+  padding: 4px;
+}

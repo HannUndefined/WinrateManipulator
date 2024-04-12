@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Winrate Manipulator</title>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+<link rel="shortcut icon" href="/image/favicon.jpg" type="image/x-icon" />
+</head>
+<body>
+<div class="container">
+  <h2 class="underline">Winrate Manipulator</h2>
+  <div class="input">
+  <input type="number" id="total_pertandingan" placeholder=" ">
+  <label for="total_pertandingan">Match Total :</label>
+  </div>
+  
+  <div class="input">
+  <input type="number" id="winrate_target" placeholder=" ">
+  <label for="winrate_target">Winrate Target (%):</label>
+  </div>
+  
+  <div class="input">
+  <label for="hero_dropdown">Hero :</label>
+  <select id="hero_dropdown"></select>
+  </div>
+  
+  <button onclick="hitungKemenangan()">Hitung</button>
+  <p id="hasil"></p>
+  <p id="alertWarn"></p>
+</div>
+
+<div class="center">
+  <h6 class="container d-inline-block">@hannundefined</h6>
+</div>
+<div class="center">
+<!-- Facebook -->
+<a class="social-media-icon facebook" href="https://www.facebook.com/profile.php?id=100087148976396&mibextid=ZbWKwL">
+	<span class="fab fa-facebook"></span>
+</a>
+<!-- tiktok -->
+<a class="social-media-icon tiktok" href="https://www.tiktok.com/@hannundefined?_t=8lSwJpYnynx&_r=1">
+	<span class="fab fa-tiktok"></span>
+</a>
+<!-- Instagram -->
+<a class="social-media-icon instagram" href="https://www.instagram.com/hann.undefined?igsh=ejYzN21qa3p3eDI0">
+	<span class="fab fa-instagram"></span>
+</a>
+<!-- Youtube -->
+<a class="social-media-icon youtube" href="https://www.instagram.com/hann.undefined?igsh=ejYzN21qa3p3eDI0">
+	<span class="fab fa-youtube"></span>
+</a>
+
+</div>
+
+
+<script src="script.js"></script>
+</body>
+</html>

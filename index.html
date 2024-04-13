@@ -12,12 +12,12 @@
 <div class="container">
   <h2 class="underline">Winrate Manipulator</h2>
   <div class="input">
-  <input type="number" id="total_pertandingan" placeholder=" " maxlength="13">
+  <input type="number" id="total_pertandingan" placeholder=" " maxlength="10" oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);">
   <label for="total_pertandingan">Match Total :</label>
   </div>
   
   <div class="input">
-  <input type="number" id="winrate_target" placeholder=" " maxlength="10">
+  <input type="number" id="winrate_target" placeholder=" " maxlength="10" oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);">
   <label for="winrate_target">Winrate Target (%):</label>
   </div>
   
